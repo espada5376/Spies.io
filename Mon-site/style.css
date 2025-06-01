@@ -1,0 +1,162 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+p{
+    font-weight: 300;
+    color: #111;
+    text-align: center;
+    cursor: default;
+}
+.Banniere{
+    
+    background-image:url(./img/Audrey.jpg) ;
+     position:relative ;
+    width: 100%;
+    min-height: 100vh;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover ;
+}
+.Banniere .contenu{
+    text-align: center;
+
+}
+.Dtm1{
+    font-size: 1em;
+    color: blue;
+    background: #fb911f;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 10px;
+    text-align: center;
+}
+.Dtm1:hover{
+    letter-spacing: 4px;
+}
+.Dtm2{
+    font-size: 1em;
+    color: blue;
+    background: #2a4963;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    margin-left: 20px;
+    text-align: center;
+}
+.Dtm2:hover:hover{
+    letter-spacing: 4px;
+}
+  .formulaire-Inscription {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulaire-Inscription input,
+.formulaire-Inscription button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formulaire-Inscription button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  display: block;
+  margin: 10px auto;
+  transition: 0.3s ease-in-out;
+}
+
+.formulaire-Inscription button:hover {
+  background-color: #218838;
+  transform: scale(1.2);
+  
+  
+}
+form {
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      margin-top: 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+    .Z span{
+        color: #fb911f;
+    }
+ .formulaire-Connexion {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulaire-Connexion input,
+.formulaire-Connexion button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.formulaire-Connexion button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: block;
+  margin: 10px auto;
+}
+
+.formulaire-Connexion button:hover {
+  background-color: #218838;
+  padding: 20px;
+  
+}

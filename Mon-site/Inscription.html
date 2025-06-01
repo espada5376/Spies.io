@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inscription</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./inscription.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      <p class="Z"><span>Insc</span>ription</p>
+    </h1>
+    <form class="formulaire-Inscription">
+      <input
+        class="nom"
+        type="text"
+        name="nom"
+        placeholder="Votre nom"
+        required
+      />
+      <input
+        class="prenom"
+        type="text"
+        name="prenom"
+        placeholder="Votre prénom"
+        required
+      />
+      <input
+        class="num"
+        type="text"
+        name="nom"
+        placeholder="Votre numéro de telephone"
+        required
+      />
+      <input
+        class="email"
+        type="email"
+        name="email"
+        placeholder="Votre email"
+        required
+      />
+      <input
+        class="mdp"
+        type="password"
+        name="password"
+        placeholder="Mot de passe"
+        required
+      />
+      <label for="genre"></label>
+      <select id="genre" name="Genre">
+        <option value="">Sélectionne votre genre</option>
+        <option value="féminin">Féminin</option>
+        <option value="masculin">Masculin</option>
+        <option value="Personnalisé">Personnalisé</option>
+      </select>
+      <button onclick="recupere()">S'inscrire</button>
+    </form>
+    <p class="status"></p>
+  </body>
+</html>

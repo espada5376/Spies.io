@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./inscription.js" defer></script>
+  </head>
+  <body>
+    <h1>
+      <p class="Z"><span>Con</span>nexion</p>
+    </h1>
+    <form class="formulaire-Connexion">
+      <input
+        class="nom"
+        type="text"
+        name="nom"
+        placeholder="Nom d'utilisateur"
+        required
+      />
+      <input
+        class="email"
+        type="email"
+        name="email"
+        placeholder="Votre email"
+        required
+      />
+      <input
+        class="mdp"
+        type="password"
+        name="password"
+        placeholder="Mot de passe"
+        required
+      />
+
+      <button onclick="connectionusers()">Se connecter</button>
+    </form>
+    <p class="status"></p>
+  </body>
+</html>
